@@ -1,2 +1,4 @@
 cmd/density/density.exe
 cmd/density/density
+.#*
+.DS_Store

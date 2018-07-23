@@ -98,7 +98,7 @@ func main() {
 		}
 	}
 
-	ui.Handle("/sys/kdb/space", inputHandler(-1))
+	ui.Handle("/sys/kdb/<space>", inputHandler(-1))
 	ui.Handle("/sys/kbd/1", inputHandler(0))
 	ui.Handle("/sys/kbd/2", inputHandler(1))
 	ui.Handle("/sys/kbd/3", inputHandler(2))
